@@ -13,3 +13,15 @@ We recommend followers start with our data, since reproducing the pkl file requi
 
 # checkpoint file provided
 One of the checkpoints are provided in the following link. The checkpoint is one of the saved models being averaged in our paper's results.
+
+
+
+
+@article{feng2022neuro,
+  title={Neuro-symbolic Natural Logic with Introspective Revision for Natural Language Inference},
+  author={Feng, Yufei and Yang, Xiaoyu and Zhu, Xiaodan and Greenspan, Michael},
+  journal={Transactions of the Association for Computational Linguistics},
+  volume={10},
+  pages={240--256},
+  year={2022}
+}
