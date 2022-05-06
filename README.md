@@ -1,7 +1,7 @@
 # NS-NLI
 
-Uploading files after PhD dissertation.
-If urgently needed, contact Yufei @ feng.yufei@queensu.ca
+# Neuro-Symbolic Natural Logic with Introspective Revision for Natural Language Inference (TACL 2022)
+If help on the code is needed, contact Yufei @ feng.yufei@queensu.ca
 
 
 # All required pre-processed data
