@@ -15,7 +15,8 @@ We recommend followers start with our data, since reproducing the pkl file requi
 One of the checkpoints are provided in the following link. The checkpoint is one of the saved models being averaged in our paper's results.
 https://drive.google.com/file/d/1H-4MThtQbqTPgpl2SZBwNw_jlbeYNIqj/view?usp=sharing
 
-
+# Training and Testing:
+Please put unzip data file to the data folder and run train file and test file respectively.
 
 ## Please cite the following paper if you find our code helpful:
 ```
