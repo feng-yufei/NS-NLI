@@ -16,7 +16,8 @@ One of the checkpoints are provided in the following link. The checkpoint is one
 
 
 
-
+## Please cite the following paper if you find our code helpful:
+```
 @article{feng2022neuro,
   title={Neuro-symbolic Natural Logic with Introspective Revision for Natural Language Inference},
   author={Feng, Yufei and Yang, Xiaoyu and Zhu, Xiaodan and Greenspan, Michael},
@@ -25,3 +26,4 @@ One of the checkpoints are provided in the following link. The checkpoint is one
   pages={240--256},
   year={2022}
 }
+```
