@@ -24,8 +24,8 @@ class DataLoader:
         self.max_word = max_word
         self.max_phrase = max_phrase
         self.dataset = load_pkl(data_file)
-        #if hold:
-        #    self.dataset = self.dataset[0:1000]
+        if hold:
+            self.dataset = self.dataset[0:5000]
         #"""
         if rev_data_file:
             rev_data = load_pkl(rev_data_file)
