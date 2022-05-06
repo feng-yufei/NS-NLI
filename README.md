@@ -1,6 +1,7 @@
 # NS-NLI
 
 # Neuro-Symbolic Natural Logic with Introspective Revision for Natural Language Inference (TACL 2022)
+paper link: https://arxiv.org/abs/2203.04857
 If help on the code is needed, contact Yufei @ feng.yufei@queensu.ca
 
 
