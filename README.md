@@ -11,8 +11,9 @@ The zip file includes all the training data, and challenge tests
 
 We recommend followers start with our data, since reproducing the pkl file requires stanford nlp parser and aligners, which causes many trouble for new users.
 
-# checkpoint file provided
+# Checkpoint file provided
 One of the checkpoints are provided in the following link. The checkpoint is one of the saved models being averaged in our paper's results.
+https://drive.google.com/file/d/1H-4MThtQbqTPgpl2SZBwNw_jlbeYNIqj/view?usp=sharing
 
 
 
