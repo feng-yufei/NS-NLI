@@ -67,24 +67,11 @@ class GPT2Classifier(nn.Module):
             #print(transition)
             #mlogits = torch.cat([mlogits, transition.unsqueeze(1)], dim=1)
             if train:
-                """
-                r_transition = transition.clone().detach()
-                for j in range(batch_size):
-                    if rnd() < 0.1:
-                        r_transition[j, 0] = 0.25
-                        r_transition[j, 1] = 0.25
-                        r_transition[j, 2] = 0.25
-                        r_transition[j, 3] = 0
-                        r_transition[j, 4] = 0
-                        r_transition[j, 5] = 0
-                        r_transition[j, 6] = 0.25
-                """
-                #print(r_transition)
+                
                 sampled_relation = torch.multinomial(transition, num_samples=1).squeeze(-1)
                 #print(sampled_relation.shape)5W*
 
             else:
-                #print('not sampling')
                 sampled_relation = torch.argmax(transition, dim=-1)
 
             # choices.append(sampled_relation.item())
